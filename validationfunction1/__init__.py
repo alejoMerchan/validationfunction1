@@ -11,7 +11,7 @@ import csv
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-    
+    logging.info("--- starting the function ---")
     try:
         req_body = req.get_json()
     
